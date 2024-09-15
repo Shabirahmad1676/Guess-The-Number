@@ -1,0 +1,46 @@
+body{
+ 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  border: 1px solid violet;
+  padding: 10px 20px;
+  border-radius: 5px;
+  height: 300px;
+  text-align: center;
+}
+label{
+  display: block;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+#input {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  width: 17rem;
+}
+.first{
+  text-align: center;
+}
+.btn{
+  padding: 8px 10px;
+}
+#startGame{
+  background-color: aqua;
+  padding: 15px 20px;
+}
+#guessDisplay{
+  margin-top: 20px;
+}
